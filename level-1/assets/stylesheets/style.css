@@ -121,6 +121,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
+    color: white;
 }
 .logo {
     color: white;
@@ -309,7 +310,7 @@ button {
     width: 28%;
     padding-left: 20px;
 }
-iframe {
+.column2 iframe {
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -318,3 +319,48 @@ iframe {
     align-items: flex-start;
 }
 /* footer */
+/* footer-first-section */
+footer {
+    background: linear-gradient(to right, #373737 60%, #050505);
+    color: white;
+    padding: 50px 0;
+}
+.first-foot {
+    padding: 25px 0;
+}
+.parent-foot {
+    align-items: flex-start;
+}
+.foot-col-1 {
+    flex-basis: 35%;
+}
+.foot-col-1 p {
+    margin-top: 10px;
+}
+.foot-col-2 {
+    flex-basis: 20%;
+    padding-left: 15px;
+}
+.list-item a {
+    color: white;
+}
+.list-item {
+    margin: 10px 0;
+}
+address {
+    margin-top: 10px;
+}
+/* footer-second-section */
+.foot-first-sub {
+    flex-basis: 60%;
+}
+.foot-second-sub {
+    flex-basis: 40%;
+}
+.number {
+    margin-left: 10px;
+}
+.border-footer {
+    border-top: 2px solid #494949;
+    padding: 30px 0;
+}
